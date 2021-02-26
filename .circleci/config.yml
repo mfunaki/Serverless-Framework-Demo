@@ -28,7 +28,7 @@ jobs:
       - serverless/setup:
           provider: AWS
           app-name: serverless-framework-orb
-          org-name: circleci
+          org-name: mfunaki
       - run:
           name: Local invoke add function
           command: serverless invoke local --function add --path 'sampleData/data.json'
